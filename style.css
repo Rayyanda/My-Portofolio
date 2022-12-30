@@ -179,7 +179,7 @@ header{
     margin: 10px auto;
     padding-bottom: 10px;
     text-align: center;
-    width: 600px;
+    width: inherit;
     color: #2F5597;
 }
 
