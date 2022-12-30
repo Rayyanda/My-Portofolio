@@ -1,0 +1,161 @@
+@media (max-width:1000px) {
+    header{
+        width: 900px;
+        margin: 15 auto;
+    }
+    .header-right ul{
+       right: 100px;
+       position: relative;
+    }
+    .content{
+        width: 820px;
+    }
+}
+
+@media (max-width:670px) {
+    header{
+        width: 550px;
+        left: 32px;
+        margin: 15px auto;
+    }
+    .header-right a{
+        font-size: 16px;
+    }
+    .header-right a:hover{
+    background-color: #2F5597;
+    color: white;
+    transition: all 0.5s;
+}
+    .header-left{
+        font-size: 28px;
+    }
+    .header-right ul{
+       right: 100px;
+       position: relative;
+    }
+    .content{
+        width: 520px;
+    }
+    .image{
+        text-align: center;
+    }
+    .image img{
+        float: none;
+        width: 300px;
+    }
+    .text h2{
+        padding: 50px 20px;
+        text-align: center;
+        font-size: 24px;
+    }
+    .sc-left h3{
+        padding-left: 30px;
+        padding-top: 40px;
+        font-size: 24px;
+    }
+    .sc-right{
+        padding-top: 30px;
+    }
+    .sc-right img{
+        width: 60%;
+    }
+    .heading h2{
+        font-size: 24px;
+        padding: 5px 50px;
+    }
+    .skill{
+        width: 47%;
+    }
+    .skill-icon img{
+        width: 50px;
+    }.containers{
+        margin: 20px auto;
+    }
+}
+@media (max-width:860px) {
+    header{
+        left: 15px;
+    }
+}
+@media (max-width:520px){
+    header{
+        width: 500px;
+        left: 5px;
+    }
+    .header-left h1{
+        font-size: 28px;
+    }
+    .content{
+        width: 490px;
+    }
+}
+
+
+
+
+@media (max-width:320px) {
+    header{
+        width: 90%;
+        margin: 15px auto;
+        height: auto;
+        text-align: center;
+        left: 12px;
+    }
+    .header-right ul{
+        right: 0px;
+    }
+    .header-right a{
+        font-size: 10px;
+    }
+    .header-left{
+        font-size: 18px;
+        float: none;
+        line-height: normal;
+        left: 0;
+    }.header-right li{
+        height: 30px;
+        line-height: 30px;
+    }
+    .first{
+        height: 300px;
+    }
+    .content{
+        width: 80%;
+        margin: 15px auto;
+    }.header-right{
+        width: inherit;
+        float: none;
+        position: relative;
+        line-height: 0px;
+        margin: 10px auto;
+    }.image img{
+        width: 80%;
+    }
+    .text h2{
+        padding: 30px 10px;
+        text-align: center;
+        font-size: 14px;
+    }.sc-left h3{
+        font-size: 12px;
+        padding: 10px 10px;
+
+    }
+    .sc-left{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .sc-right{
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin-top: 10px;
+        padding-top: 0px;
+    }
+    .heading p{
+        font-size: 14px;
+    }
+    .skill{
+        width: 92%;
+    }
+}

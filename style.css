@@ -1,0 +1,197 @@
+*{
+    font-family: "TW Cen MT";
+    box-sizing: border-box;
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(242, 242, 242);
+}
+header{
+    top: 0;
+    left: 32px;
+    position: fixed;
+    height: 65px;
+    z-index: 10;
+    width: 1200px;
+    margin: 15px auto;
+    background-color:white;
+    box-shadow: 5px 7px rgb(230, 230, 230);
+}
+.header-left{
+    float: left;
+    font-size: 36px;
+    line-height: 65px;
+    padding-left: 20px;
+    color: #2F5597;
+}
+.header-right a{
+    display: inline-block;
+    color: #2F5597;
+    font-size: 20px;
+    border-radius: 5px;
+    padding:0px 10px;
+ 
+}
+.header-right a:hover{
+    background-color: #2F5597;
+    color: white;
+    transition: all 0.5s;
+}
+.header-right ul{
+    display: flex;
+}
+.header-right li{
+    flex: auto;
+    width: inherit;
+    padding: 0 10px;
+    /* margin: 0 auto; */
+}
+.header-right{
+    width: 20%;
+    line-height: 65px;
+    float: right;
+    text-align: center;
+}
+.content{
+    width: 1120px;
+    margin: 15px auto;
+    background-color:white;
+    box-shadow: 5px 7px rgb(230, 230, 230);
+}
+.first{
+    position: relative;
+    padding-top: 30px;
+    height: 420px; 
+}
+.kosong{
+    height: 80px;
+}
+.container{
+    margin: 0 auto;
+    width: inherit;
+    height: 300px;
+    padding: 10px;
+
+}
+.image img{
+    width: 500px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: -10px 10px rgba(215, 215, 215, 5);
+}
+.text h2{
+    padding-top: 50px;
+    font-size: 32px;
+    color: #2F5597;
+}
+.clear{
+    clear: both;
+}
+
+.sc-left{
+    width: 60%;
+    float: left;
+}
+.sc-left h3{
+    padding-top: 80px;
+    padding-left: 60px;
+    font-size: 32px;
+    color: #2F5597;
+}
+.sc-right{
+    margin: 20px 0;
+    float: right;
+    width: 40%;
+    text-align: center;
+}
+.sc-right img{
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: -10px 10px rgba(215, 215, 215, 5);
+}
+.heading{
+    text-align: center;
+    padding-top: 20px;
+}
+.heading h2{
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    background-color:#2F5597;
+    padding: 10px 100px;
+    border-radius: 5px;
+    box-shadow: -5px 5px rgba(215, 215, 215, 5);
+}
+
+.heading p{
+    color: #2F5597;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 22px;
+    width: 75%;
+}
+.skills{
+    width: inherit;
+}
+.containers{
+    margin-top: 20px;
+    text-align: center;
+}
+.skill{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    float: left;
+    width: 24%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0.8px solid rgba(215, 215, 215, 5);
+    box-shadow: -5px 5px rgba(215, 215, 215, 5);
+    color: #2F5597;
+}.skill p{
+    padding: 10px;
+}.skill-icon{
+    padding-top: 5px;
+}.skill-icon img{
+    width: 100px;
+}
+.skill h5{
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.fth-text{
+    margin: 10px auto;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 600px;
+    color: #2F5597;
+}
+
+
+
+
+
+
+footer{
+    line-height: 40px;
+    text-align: center;
+    height: 40px;
+    width: inherit;
+    background-color: #8E8CF0;
+}
